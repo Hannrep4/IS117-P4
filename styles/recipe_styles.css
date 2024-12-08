@@ -1,0 +1,203 @@
+/* DEVELOPER: Hannah Repuyan, IS117-003, Fall 2024 */
+
+/* custom font */
+.darumadrop-one-regular {
+    font-family: "Darumadrop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.gamja-flower-regular {
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* --------------------- Styles for the header --------------------- */
+header {
+    width: 100%;
+    height: 160px;
+    background-color: #ffb74d;
+    border-top: solid 10px #ff6f61;
+    border-bottom: solid 10px #ff6f61;
+    border-style: dashed;
+}
+
+header h1 {
+    color: #fffaed;
+    text-align: center;
+    font-size: 55px;
+    padding: 35px 0 0 0;
+}
+
+/* --------------------- the style for the nav menu ---------------------  */
+#nav_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+    display: flex;
+}
+
+#nav_menu ul li {
+	float: left;
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+#nav_menu ul li a {
+	display: block;
+	width: 100%;
+    text-align: center;
+    font-size:18px;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #4db6ac;
+    color: white;
+    font-weight: bold;
+}
+#nav_menu a.current {
+	color: #ffe24d;
+}
+#nav_menu ul ul { /* controls the display menu & prevents it from being displayed by default */
+	display: none;
+	position: absolute;
+    top: 100%;
+    width: 100%;
+}
+#nav_menu ul ul li { /* controls elements in the submenu */
+	float: none;
+}
+#nav_menu ul li:hover > ul { /* the "hover" makes the submenu appear */
+	display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* --------------------- Styles for the main body --------------------- */
+.welcome-message {
+    padding: 40px 0 20px 0;
+}
+
+main {
+    background-color: #fffac1;
+}
+
+main p {
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* --------------------- Styles for recipe catalog --------------------- 
+                          (image and text styling) */
+
+.container {
+    display: flex;
+    flex-direction: row; /* puts the images and bodies of text side-by-side */
+    justify-content: center; /* centers the images and text */
+}
+
+.recipe-img-container {  /* organizes the recipe images */
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+
+.recipe-desc-container { /* organizes the text next to each recipe image */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.recipe-desc p {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.desc {
+    width: 500px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+/* ---- styles the recipe images ---- 
+(margins ensure that photos have space between them) */
+
+.mango-img {
+    border: solid 6px #ffa50b;
+}
+
+.ube-img {
+    border: solid 6px #bf96fd;
+}
+
+.buko-img {
+    border: solid 6px #81e474;
+}
+
+.rice-img {
+    border: solid 6px #b9c188;
+}
+
+/* ---- styles the recipe names ---- 
+(margins ensure that photos have space between them) */
+
+.recipe-desc-mango h4 {
+    color: #ffa50b;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.recipe-desc-ube h4 {
+    color: #bf96fd;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.recipe-desc-buko h4 {
+    color: #81e474;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.recipe-desc-rice h4 {
+    color: #b9c188;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.decorative_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decorative_icons img {
+    margin: 30px 20px 30px 20px;
+}
+
+/* --------------------- styles for the footer --------------------- */
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #ffb74d;
+    border-top: solid 10px #ff6f61;
+    border-bottom: solid 10px #ff6f61;
+    border-style: dashed;
+}
+
+footer p {
+    font-size: 20px;
+    color: #fffaed;
+    text-align: center;
+}
