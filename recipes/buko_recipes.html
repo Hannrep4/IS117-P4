@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Hannah Repuyan, IS117-003, Fall 2024 -->
+
+<html>
+    <head>
+        <!-- Gives the website's tab a title. -->
+        <title>Buko Recipes!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Gamja+Flower&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="../styles/recipe_styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <header>
+            <!-- Header might be an image instead. The6 text is just a placeholder. -->
+            <h1 class="darumadrop-one-regular">Buko Recipes!</h1>
+        </header>
+
+            <!-- navigation bar -->
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="../index.html" class="current darumadrop-one-regular">&#x1F3E0 Home</a></li>
+                <li><a class="darumadrop-one-regular">&#x1F4C3 Recipes</a>
+                    <ul>
+                        <li><a href="../recipes/mango_recipes.html" class="darumadrop-one-regular">Mango</a></li>
+                        <li><a href="../recipes/ube_recipes.html" class="darumadrop-one-regular">Ube</a></li>
+                        <li><a href="../recipes/buko_recipes.html" class="darumadrop-one-regular">Buko</a></li>
+                        <li><a href="../recipes/glutinous_rice_recipes.html" class="darumadrop-one-regular"">Glutinous Rice</a></li>
+                    </ul>
+                </li>
+                <li><a href="../pages/community.html" class="darumadrop-one-regular">&#128173 Community</a></li>
+                <li><a href="../pages/discover_more.html" class="darumadrop-one-regular">&#x1F50E Discover More</a></li>
+                <li><a href="../pages/about_the_dev.html" class="darumadrop-one-regular">&#128075 About Me</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="welcome-message">
+                <p class="gamja-flower-regular">Buko is a wonderful little coconut that adds a refreshing flavor to your desserts!</p>
+                <p class="gamja-flower-regular">Click on an image to view a recipe!</p>
+            </div>
+
+            <div class="decorative_icons">
+                <img class="decorative_icon" src="../images/buko_png.png" width="60px">
+                <img class="decorative_icon" src="../images/buko_png.png" width="60px">
+                <img class="decorative_icon" src="../images/buko_png.png" width="60px">
+            </div>
+            
+            <!-- make a div filled with images; change flex direction of it so that they're in columns-->
+
+            <div class="container">
+                <div class="recipe-img-container">
+                    <a href="https://panlasangpinoy.com/coconut-buko-pie-recipe/"><img class="buko-img" src="../images/buko_pie.jpg" width="200px" alt="Buko Pie"></a>
+                    <a href="https://www.kawalingpinoy.com/buko-pandan-ice-cream/"><img class="buko-img" src="../images/buko_ice_cream.jpg" width="200px" alt="Buko Ice Cream"></a>
+                    <a href="https://www.kawalingpinoy.com/buko-pandan-salad/"><img class="buko-img" src="../images/buko_pandan_salad.jpg" width="200px" alt="Buko Pandan Salad"></a>
+                    <a href="https://www.allrecipes.com/recipe/189441/maja-blanca-coconut-pudding/"><img class="buko-img" src="../images/maja_blanca.jpg" width="200px" alt="Maja Blanca"></a>
+                </div>
+    
+                <div class="recipe-desc-container">
+                    <div class="recipe-desc-buko">
+                        <h4 class="darumadrop-one-regular">Buko Pie</h4>
+                        <p class="desc gamja-flower-regular">
+                            description description description description description description 
+                            description description description description description description
+                            description description description description description description
+                            description description
+                        </p>
+                    </div>
+                    <div class="recipe-desc-buko">
+                        <h4 class="darumadrop-one-regular">Buko Ice Cream</h4>
+                        <p class="desc gamja-flower-regular">
+                            description description description description description description 
+                            description description description description description description
+                            description description description description description description
+                            description description
+                        </p>
+                    </div>
+                    <div class="recipe-desc-buko">
+                        <h4 class="darumadrop-one-regular">Buko Pandan Salad</h4>
+                        <p class="desc gamja-flower-regular">
+                            description description description description description description 
+                            description description description description description description
+                            description description description description description description
+                            description description
+                        </p>
+                    </div>
+                    <div class="recipe-desc-buko">
+                        <h4 class="darumadrop-one-regular">Maja Blanca</h4>
+                        <p class="desc gamja-flower-regular">
+                            description description description description description description 
+                            description description description description description description
+                            description description description description description description
+                            description description
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="decorative_icons">
+                <img class="decorative_icon" src="../images/buko_png.png" width="60px">
+                <img class="decorative_icon" src="../images/buko_png.png" width="60px">
+                <img class="decorative_icon" src="../images/buko_png.png" width="60px">
+            </div>
+        </main>
+    </body>
+
+   
+
+    <footer>
+        <p class="gamja-flower-regular">&copy; December 5, 2024. Hannah Repuyan.</p>
+    </footer>
+
+</html>
