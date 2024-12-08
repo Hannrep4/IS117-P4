@@ -1,99 +1,133 @@
-
 <!DOCTYPE html>
 <!-- DEVELOPER: Hannah Repuyan, IS117-003, Fall 2024 -->
+
+<!-- 11/26/24 NOTICE: I have a lot of CSS styles and very similar pages. Alter one CSS file so that it can be used to style most of the other pages.
+    Link that CSS file to those pages. Use ids or classes to assign styles to elements.
+
+    DELETE THIS COMMENT BLOCK BEFORE SUBMITTING.
+-->
 
 <html>
     <head>
         <!-- Gives the website's tab a title. -->
-        <title>Filipino Desserts!</title>
+        <title>Home | Discover Filipino Desserts!</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <!-- for fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Gamja+Flower&display=swap" rel="stylesheet">
+        
+        <!-- link to CSS -->
         <link rel="stylesheet" href="styles/main.css">
+
+        <!-- link to Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <meta charset="UTF-8">
+
+        <!-- viewport meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
 
     <body>
         <header>
-            <!-- Header might be an image instead. The6 text is just a placeholder. -->
-            <h1>[home page title goes here]</h1>
+            <h1 class="darumadrop-one-regular">Discover Filipino Desserts!</h1>
         </header>
 
-        <!-- Navigation bar
-         
-        11/22/24: EACH OPTION DOES NOT HAVE AN HTML FILE YET.
-        THE href FOR EACH LIST NAV BAR ITEM IS WRONG. MAKE SURE TO CHANGE IT ONCE YOU CREATE THE FILE.
-        -->
+            <!-- nav bar -->
             <nav id="nav_menu">
                 <ul>
-                    <li><a href="index.html" class="current">Home</a></li>
-                    <li><a>Recipes</a>
+                    <li><a href="index.html" class="current darumadrop-one-regular">&#x1F3E0 Home</a></li>
+                    <li><a class="darumadrop-one-regular">&#x1F4C3 Recipes</a>
                         <ul>
-                            <li><a href="recipes/mango_recipes.html">Mango</a></li>
-                            <li><a href="recipes/ube_recipes.html">Ube</a></li>
-                            <li><a href="recipes/buko_recipes.html">Buko</a></li>
-                            <li><a href="recipes/glutinous_rice_recipes.html">Glutinous Rice</a></li>
+                            <li><a href="recipes/mango_recipes.html" class="darumadrop-one-regular">Mango</a></li>
+                            <li><a href="recipes/ube_recipes.html" class="darumadrop-one-regular">Ube</a></li>
+                            <li><a href="recipes/buko_recipes.html" class="darumadrop-one-regular">Buko</a></li>
+                            <li><a href="recipes/glutinous_rice_recipes.html" class="darumadrop-one-regular">Glutinous Rice</a></li>
                         </ul>
                     </li>
-                    <li><a href="pages/community.html">Community</a></li>
-                    <li><a href="pages/discover_more.html">Discover More</a></li>
-                    <li><a href="pages/about_the_dev.html">About Me</a></li>
+                    <li><a href="pages/community.html" class="darumadrop-one-regular">&#128173 Community</a></li>
+                    <li><a href="pages/discover_more.html" class="darumadrop-one-regular">&#x1F50E Discover More</a></li>
+                    <li><a href="pages/about_the_dev.html" class="darumadrop-one-regular">&#128075 About Me</a></li>
                 </ul>
             </nav>
         
 
         <main>
-            <welcome>
-                <h3>
-                    Welcome!
-                </h3>
-                <p class="welcome_message">
-                    Indulge youself in a delicious culinary journey through the Philippines!
-                    Here, you will learn about some common ingredients that are crucial to
-                    the Philippine's dessert world. Click on a card to learn more about a 
-                    certain ingredient, or explore the navigation bar above for recipes!
-                </p>
-            </welcome>
+            <h3 class="gamja-flower-regular">
+                &#127796 &#127796 &#127796 &#127796 &#127796 Welcome! &#127796 &#127796 &#127796 &#127796 &#127796
+            </h3>
+
+            <p class="gamja-flower-regular">
+            Indulge yourself in a delicious culinary journey through the Philippines!
+            Here, you will learn about some common ingredients that are crucial to
+            the Philippine's dessert world. Click a card's picture to learn more about a 
+            certain ingredient, or explore the navigation bar above for recipes and
+            other things!
+            </p>
         </main>
-            
-            <!-- clickable cards
-                images will be links to a new page -->
+        
+            <!-- clickable cards -->
             <div class="card_container">
                 <div class="card">
                     <a href="pages/mango_info.html"><img src="images/mangoes.jpg" alt="Mangoes" style="width:200px"></a>
                     <div class="container">
-                      <h4><b>Mangoes</b></h4>
-                      <p>Yum :D</p>
+                      <h4 class="gamja-flower-regular"><b>Mangoes</b></h4>
+                      <p class="gamja-flower-regular">Irresitible, golden, and soft!</p>
                     </div>
                 </div>
 
                 <div class="card">
                     <a href="pages/ube_info.html"><img src="images/ube.jpg" alt="Ube (Purple Yam)" style="width:200px"></a>
                     <div class="container">
-                      <h4><b>Ube (Purple Yam)</b></h4>
-                      <p>Yum :D</p>
+                      <h4 class="gamja-flower-regular"><b>Ube</b></h4>
+                      <p class="gamja-flower-regular">Nutty, purple, and hearty!</p>
                     </div>
                 </div>
 
                 <div class="card">
                     <a href="pages/buko_info.html"><img src="images/buko.jpg" alt="Buko (Young Coconut)" style="width:200px"></a>
                     <div class="container">
-                      <h4><b>Buko (Young Coconut)</b></h4>
-                      <p>Yum :D</p>
+                      <h4 class="gamja-flower-regular"><b>Buko</b></h4>
+                      <p class="gamja-flower-regular">Green, fresh, and abundant!</p>
                     </div>
                 </div>
 
                 <div class="card">
                     <a href="pages/glutinous_rice_info.html"><img src="images/glutinous_rice.jpg" alt="Glutinous Rice" style="width:200px"></a>
                     <div class="container">
-                      <h4><b>Glutinous Rice</b></h4>
-                      <p>Yum :D</p>
+                      <h4 class="gamja-flower-regular"><b>Glutinous Rice</b></h4>
+                      <p class="gamja-flower-regular">Sticky, sweet, and filling!</p>
                     </div>
                 </div>
             </div>
+        
 
             
     </body>
 
     <footer>
-        <p>&copy; November 12, 2024. Hannah Repuyan.</p>
+        <!-- contact form -->
+        <form>
+            <div class="mb-3">
+                <b><p class="gamja-flower-regular">Want to stay connected? Submit your email below!</p></b>
+                <label for="exampleInputEmail1" class="form-label gamja-flower-regular">Email Address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <button type="submit" class="submit_button darumadrop-one-regular"><b>Submit</b></button>
+        </form>
+
+        <!-- copyright -->
+        <p class="copyright gamja-flower-regular">&copy; December 5, 2024. Hannah Repuyan.</p>
     </footer>
 
 </html>
