@@ -183,8 +183,17 @@ footer p {
     }
     main p {
         font-size: 15px;
-        padding: 40px 150px 60px 150px; /* add padding so that text is not across the entire page*/
+        padding: 20px 200px 40px 200px; /* add padding so that text is not across the entire page*/
         margin: 0;
+    }
+    .card_container {
+	background-color: #fffac1;
+	display: flex;
+	place-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-bottom: 80px;
+	margin-top: none;
     }
     .card p {
         font-size: 15px;
