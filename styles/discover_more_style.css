@@ -159,12 +159,12 @@ footer p {
     }
     main h3 {
 	padding-top: 50px;
-	font-size: 18px;
+	font-size: 13px;
     }
     .button-container button {
-        width: 130px;
-        height: 80px;
-        font-size: 20px;
+        width: 170px;
+        height: 90px;
+        font-size: 18px;
         border-radius: 50px;
         border: none;
         margin: 0 20px 0 20px;
