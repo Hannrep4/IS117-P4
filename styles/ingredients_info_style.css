@@ -189,19 +189,19 @@ footer p {
     }
     body p {
         font-size: 15px;
-        margin: 50px 0 50px 0;
+        margin: 50px 5px 50px 5px;
     }
     .mango-img {
-        width: 10%;
+        width: 30%;
     }
     .ube-img {
-        width: 10%;
+        width: 30%;
     }
     .buko-img {
-        width: 10%;
+        width: 30%;
     }
     .rice-img {
-        width: 10%;
+        width: 30%;
     }
     footer p {
         color: #fffaed;
