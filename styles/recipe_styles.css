@@ -219,6 +219,9 @@ footer p {
         justify-content: center; /* centers the images and text */
 	align-items: center;
     }
+    footer p {
+        font-size: 15px;
+    }
     .mango-img {
         width: 45%;
     }
