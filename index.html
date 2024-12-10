@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <!-- DEVELOPER: Hannah Repuyan, IS117-003, Fall 2024 -->
 
-<!-- 11/26/24 NOTICE: I have a lot of CSS styles and very similar pages. Alter one CSS file so that it can be used to style most of the other pages.
-    Link that CSS file to those pages. Use ids or classes to assign styles to elements.
-
-    DELETE THIS COMMENT BLOCK BEFORE SUBMITTING.
--->
-
 <html>
     <head>
         <!-- Gives the website's tab a title. -->
@@ -16,6 +10,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
         <!-- for fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -76,10 +71,13 @@
             </p>
         </main>
         
-            <!-- clickable cards -->
+            <!-- 
+                 clickable cards
+                 (image widths are percentages rather than px)
+                 -->
             <div class="card_container">
                 <div class="card">
-                    <a href="pages/mango_info.html"><img src="images/mangoes.jpg" alt="Mangoes" style="width:200px"></a>
+                    <a href="pages/mango_info.html"><img src="images/mangoes.jpg" alt="Mangoes" style="width:80%"></a>
                     <div class="container">
                       <h4 class="gamja-flower-regular"><b>Mangoes</b></h4>
                       <p class="gamja-flower-regular">Irresitible, golden, and soft!</p>
@@ -87,7 +85,7 @@
                 </div>
 
                 <div class="card">
-                    <a href="pages/ube_info.html"><img src="images/ube.jpg" alt="Ube (Purple Yam)" style="width:200px"></a>
+                    <a href="pages/ube_info.html"><img src="images/ube.jpg" alt="Ube (Purple Yam)" style="width:80%"></a>
                     <div class="container">
                       <h4 class="gamja-flower-regular"><b>Ube</b></h4>
                       <p class="gamja-flower-regular">Nutty, purple, and hearty!</p>
@@ -95,7 +93,7 @@
                 </div>
 
                 <div class="card">
-                    <a href="pages/buko_info.html"><img src="images/buko.jpg" alt="Buko (Young Coconut)" style="width:200px"></a>
+                    <a href="pages/buko_info.html"><img src="images/buko.jpg" alt="Buko (Young Coconut)" style="width:80%"></a>
                     <div class="container">
                       <h4 class="gamja-flower-regular"><b>Buko</b></h4>
                       <p class="gamja-flower-regular">Green, fresh, and abundant!</p>
@@ -103,31 +101,18 @@
                 </div>
 
                 <div class="card">
-                    <a href="pages/glutinous_rice_info.html"><img src="images/glutinous_rice.jpg" alt="Glutinous Rice" style="width:200px"></a>
+                    <a href="pages/glutinous_rice_info.html"><img src="images/glutinous_rice.jpg" alt="Glutinous Rice" style="width:80%"></a>
                     <div class="container">
                       <h4 class="gamja-flower-regular"><b>Glutinous Rice</b></h4>
                       <p class="gamja-flower-regular">Sticky, sweet, and filling!</p>
                     </div>
                 </div>
             </div>
-        
-
-            
     </body>
 
     <footer>
-        <!-- contact form -->
-        <form>
-            <div class="mb-3">
-                <b><p class="gamja-flower-regular">Want to stay connected? Submit your email below!</p></b>
-                <label for="exampleInputEmail1" class="form-label gamja-flower-regular">Email Address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <button type="submit" class="submit_button darumadrop-one-regular"><b>Submit</b></button>
-        </form>
-
         <!-- copyright -->
-        <p class="copyright gamja-flower-regular">&copy; December 5, 2024. Hannah Repuyan.</p>
+        <p class="copyright gamja-flower-regular">&copy; Hannah Repuyan 2024 | Terms of Use | Privacy Statement</p>
     </footer>
 
 </html>
