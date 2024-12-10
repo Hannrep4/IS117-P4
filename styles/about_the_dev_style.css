@@ -1,0 +1,144 @@
+/* DEVELOPER: Hannah Repuyan, IS117-003, Fall 2024 */
+
+
+/* custom font */
+.darumadrop-one-regular {
+    font-family: "Darumadrop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.gamja-flower-regular {
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+/* --------------------- Styles for the header --------------------- */
+header {
+    width: 100%;
+    height: 150px;
+    background-color: #ffb74d; 
+    border-top: solid 10px #ff6f61;
+    border-bottom: solid 10px #ff6f61;
+    border-style: dashed;
+}
+
+header h1 {
+    color: #fffaed;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 35px;
+}
+
+/* --------------------- Styles for the main body + welcome message --------------------- */
+
+main {
+    text-align: center;
+    background-color: #fffac1;
+    margin-bottom: none;
+}
+main h3 {
+    padding-top: 50px;
+    font-size: 40px;
+}
+main p {
+    font-size: 20px;
+    padding: 40px 300px 60px 300px; /* add padding so that text is not across the entire page*/
+    margin: 0;
+}
+
+/* --------------------- the style for the nav menu ---------------------  */
+#nav_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+    display: flex;
+}
+
+#nav_menu ul li {
+	float: left;
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+#nav_menu ul li a {
+	display: block;
+	width: 100%;
+    text-align: center;
+    font-size:18px;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #4db6ac;
+    color: white;
+    font-weight: bold;
+}
+#nav_menu a.current {
+	color: #ffe24d;
+}
+#nav_menu ul ul { /* controls the display menu & prevents it from being displayed by default */
+	display: none;
+	position: absolute;
+    top: 100%;
+    width: 100%;
+}
+#nav_menu ul ul li { /* controls elements in the submenu */
+	float: none;
+}
+#nav_menu ul li:hover > ul { /* the "hover" makes the submenu appear */
+	display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+ /* --------------------- styles for the footer --------------------- */
+ footer {
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffb74d;
+    border-top: solid 10px #ff6f61;
+    border-bottom: solid 10px #ff6f61;
+    border-style: dashed;
+}
+ .copyright {
+    font-size: 20px;
+    color: #fffaed;
+    text-align: center;
+}
+
+form p {
+    font-size: 20px;
+    color: #fffaed;
+    margin: 10px 0 10px 20px;
+}
+
+label {
+    font-size: 18px;
+    color: #fffaed;
+    margin: 10px 0 10px 20px;
+}
+
+.mb-3 input {
+    margin-left: 20px;
+    width: 40%;
+}
+
+form button {
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #4db6ac;
+    color: white;
+    border: none;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+form button:hover {
+    color: #ffe24d;
+}
