@@ -159,3 +159,7 @@ form button:hover {
         padding: 40px 40px 60px 40px; /* add padding so that text is not across the entire page*/
         margin: 0;
     }
+    footer p {
+        font-size: 15px;
+    }
+}
