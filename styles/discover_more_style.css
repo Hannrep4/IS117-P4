@@ -157,4 +157,16 @@ footer p {
         font-size: 35px;
         padding: 35px 0 35px 0;
     }
+    main h3 {
+	padding-top: 50px;
+	font-size: 18px;
+    }
+    .button-container button {
+        width: 130px;
+        height: 80px;
+        font-size: 20px;
+        border-radius: 50px;
+        border: none;
+        margin: 0 20px 0 20px;
+    }
 }
