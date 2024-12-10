@@ -187,4 +187,26 @@ footer p {
         font-size: 35px;
         padding: 35px 0 35px 0;
     }
+    body p {
+        font-size: 15px;
+        margin: 50px 0 50px 0;
+    }
+    .mango-img {
+        width: 10%;
+    }
+    .ube-img {
+        width: 10%;
+    }
+    .buko-img {
+        width: 10%;
+    }
+    .rice-img {
+        width: 10%;
+    }
+    footer p {
+        color: #fffaed;
+        text-align: center;
+        text-align: bottom;
+        font-size: 15px;
+    }
 }
