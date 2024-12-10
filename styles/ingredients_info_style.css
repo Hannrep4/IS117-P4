@@ -185,23 +185,27 @@ footer p {
         color: #fffaed;
         text-align: center;
         font-size: 35px;
-        padding: 35px 0 35px 0;
+        padding: 35px 0 20px 0;
     }
     body p {
         font-size: 15px;
         margin: 50px 5px 50px 5px;
     }
     .mango-img {
-        width: 30%;
+        width: 25%;
+	height: 25%;
     }
     .ube-img {
-        width: 30%;
+        width: 25%;
+	height: 25%;
     }
     .buko-img {
-        width: 30%;
+        width: 25%;
+	height: 25%;
     }
     .rice-img {
-        width: 30%;
+        width: 25%;
+	height: 25%;
     }
     footer p {
         color: #fffaed;
