@@ -142,3 +142,20 @@ form button {
 form button:hover {
     color: #ffe24d;
 }
+
+/* --------------------- @media only --------------------- */
+@media only screen and (max-width: 1198px) {
+    #nav_menu ul li a {
+        font-size: 10px;
+    }
+    header h1 {
+        color: #fffaed;
+        text-align: center;
+        font-size: 35px;
+        padding: 35px 0 35px 0;
+    }
+    main p {
+        font-size: 15px;
+        padding: 40px 150px 60px 150px; /* add padding so that text is not across the entire page*/
+        margin: 0;
+    }
