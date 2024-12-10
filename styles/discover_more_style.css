@@ -172,4 +172,10 @@ footer p {
         border: none;
         margin: 0 20px 0 20px;
     }
+    footer p {
+        color: #fffaed;
+        text-align: center;
+        text-align: bottom;
+        font-size: 15px;
+    }
 }
