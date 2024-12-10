@@ -123,4 +123,12 @@ footer p {
         font-size: 35px;
         padding: 35px 0 35px 0;
     }
+    main p {
+        font-size: 15px;
+        padding: 40px 40px 60px 40px; /* add padding so that text is not across the entire page*/
+        margin: 0;
+    }
+    main img {
+	width: 65%;
+    }
 }
