@@ -166,7 +166,11 @@ footer p {
         padding: 30px 150px 40px 150px;
         margin: 0;
     }
+	
     #carouselExampleCaptions {
         width: 75%;
+    }
+    footer p {
+        font-size: 15px;
     }
 }
