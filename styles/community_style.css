@@ -177,3 +177,24 @@ footer p {
     text-align: center;
     font-size: 20px;
 }
+
+/* --------------------- @media only --------------------- */
+@media only screen and (max-width: 1198px) {
+    #nav_menu ul li a {
+        font-size: 10px;
+    }
+    header h1 {
+        color: #fffaed;
+        text-align: center;
+        font-size: 35px;
+        padding: 35px 0 35px 0;
+    }
+    .main-message {
+        font-size: 20px;
+        padding: 50px 5px 50px 5px;
+        margin: 0;
+    }
+    .decorative_icons {
+    width: 50%;
+    }
+}
