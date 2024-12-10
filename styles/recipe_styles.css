@@ -256,4 +256,17 @@ footer p {
     .recipe-desc-rice p {
     	font-size: 12px;
     }
+
+    .recipe-desc-mango {
+    	padding-left: 10px;
+    }
+    .recipe-desc-ube {
+    	padding-left: 10px;
+    }
+    .recipe-desc-buko {
+    	padding-left: 10px;
+    }
+    .recipe-desc-rice {
+    	padding-left: 10px;
+    }
 }
