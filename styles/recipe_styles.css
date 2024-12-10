@@ -213,43 +213,22 @@ footer p {
         font-size: 35px;
         padding: 35px 0 35px 0;
     }
+     .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* centers the images and text */
+	align-items: center;
+    }
     .mango-img {
-        width: 35%;
+        width: 45%;
     }
-    
     .ube-img {
-        width: 35%;
+        width: 45%;
     }
-    
     .buko-img {
-        width: 35%;
+        width: 45%;
     }
-    
     .rice-img {
-         width: 35%;
-    }
-    .recipe-desc-mango p {
-        text-align: left;
-        padding-left: 30px;
-        font-size: 15px;
-        width: 20%;
-    }
-    .recipe-desc-ube p {
-        text-align: left;
-        padding-left: 30px;
-        font-size: 15px;
-        width: 20%;
-    }
-    .recipe-desc-buko p {
-        text-align: left;
-        padding-left: 30px;
-        font-size: 15px;
-        width: 20%;
-    }
-    .recipe-desc-rice p {
-        text-align: left;
-        padding-left: 30px;
-        font-size: 15px;
-        width: 20%;
+         width: 45%;
     }
 }
