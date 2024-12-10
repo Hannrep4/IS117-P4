@@ -156,6 +156,6 @@ form button:hover {
     }
     main p {
         font-size: 15px;
-        padding: 40px 150px 60px 150px; /* add padding so that text is not across the entire page*/
+        padding: 40px 40px 60px 40px; /* add padding so that text is not across the entire page*/
         margin: 0;
     }
