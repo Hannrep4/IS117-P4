@@ -231,4 +231,29 @@ footer p {
     .rice-img {
          width: 45%;
     }
+    .recipe-desc-mango h4 {
+    	font-size: 25px;
+    }
+    .recipe-desc-ube h4 {
+    	font-size: 25px;
+    }
+    .recipe-desc-buko h4 {
+    	font-size: 25px;
+    }
+    .recipe-desc-rice h4 {
+    	font-size: 25px;
+    }
+
+    .recipe-desc-mango p {
+    	font-size: 15px;
+    }
+    .recipe-desc-ube p {
+    	font-size: 15px;
+    }
+    .recipe-desc-buko p {
+    	font-size: 15px;
+    }
+    .recipe-desc-rice p {
+    	font-size: 15px;
+    }
 }
