@@ -213,4 +213,43 @@ footer p {
         font-size: 35px;
         padding: 35px 0 35px 0;
     }
+    .mango-img {
+        width: 35%;
+    }
+    
+    .ube-img {
+        width: 35%;
+    }
+    
+    .buko-img {
+        width: 35%;
+    }
+    
+    .rice-img {
+         width: 35%;
+    }
+    .recipe-desc-mango p {
+        text-align: left;
+        padding-left: 30px;
+        font-size: 15px;
+        width: 20%;
+    }
+    .recipe-desc-ube p {
+        text-align: left;
+        padding-left: 30px;
+        font-size: 15px;
+        width: 20%;
+    }
+    .recipe-desc-buko p {
+        text-align: left;
+        padding-left: 30px;
+        font-size: 15px;
+        width: 20%;
+    }
+    .recipe-desc-rice p {
+        text-align: left;
+        padding-left: 30px;
+        font-size: 15px;
+        width: 20%;
+    }
 }
