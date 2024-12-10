@@ -189,12 +189,19 @@ footer p {
         font-size: 35px;
         padding: 35px 0 35px 0;
     }
+    footer p {
+        font-size: 15px;
+    }
     .main-message {
         font-size: 20px;
         padding: 50px 5px 50px 5px;
         margin: 0;
     }
-    .decorative_icons {
-    width: 50%;
+    .decorative_icons img {
+	width: 10%;
+	margin: 10px 5px 80px 5px;
+    }
+    #carouselExampleCaptions {
+	width: 75%;
     }
 }
