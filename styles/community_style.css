@@ -198,10 +198,10 @@ footer p {
         margin: 0;
     }
     .decorative_icons img {
-	width: 10%;
-	margin: 10px 5px 80px 5px;
+	width: 3%;
+	margin: 10px 3px 80px 3px;
     }
     #carouselExampleCaptions {
-	width: 75%;
+	width: 85%;
     }
 }
